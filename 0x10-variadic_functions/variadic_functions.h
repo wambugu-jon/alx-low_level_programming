@@ -10,9 +10,4 @@ void _printstr(va_list list);
 void _printfloat(va_list list);
 void _printint(va_list list);
 
-typedef struct checker
-{
-	char *type;
-	void (*f)();
-} checker;
 #endif
